@@ -6,6 +6,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
+import javafx.scene.control.Button;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.image.ImageView;
 
 import java.io.IOException;
 
@@ -18,7 +21,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("primary"), 640, 480);
+        scene = new Scene(loadFXML("primary"), 1280, 720);
         stage.setScene(scene);
         Image wolfIcon = new Image(App.class.getResourceAsStream("/com/cryptwolf/icons/cryptwolf_icon.jpg"));
         stage.getIcons().add(wolfIcon);
