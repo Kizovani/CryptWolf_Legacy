@@ -1,0 +1,5 @@
+com\cryptwolf\App.class
+com\cryptwolf\PrimaryController.class
+com\cryptwolf\SecondaryController.class
+com\cryptwolf\FolderEncryption.class
+module-info.class

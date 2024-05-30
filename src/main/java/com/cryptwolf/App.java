@@ -23,7 +23,8 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("primary"), 1280, 720);
         stage.setScene(scene);
-        Image wolfIcon = new Image(App.class.getResourceAsStream("/com/cryptwolf/icons/cryptwolf_icon.jpg"));
+        scene.getStylesheets().add(getClass().getResource("/com/cryptwolf/styles.css").toExternalForm());
+        Image wolfIcon = new Image(App.class.getResourceAsStream("/com/cryptwolf/icons/file-d5XMRMUcdbVpAKzxXgjfmUUR.png"));
         stage.getIcons().add(wolfIcon);
         stage.show();
     }

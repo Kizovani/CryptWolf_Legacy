@@ -5,7 +5,7 @@
 
 <BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cryptwolf.PrimaryController">
     <left>
-        <Button fx:id="leftButton" onAction="#loadThisOne" text="Left Button" style="-fx-font-size: 14px; -fx-background-color: #ff0000;" />
+        <Button fx:id="leftButton" />
     </left>
     <right>
         <Button fx:id="rightButton" />
